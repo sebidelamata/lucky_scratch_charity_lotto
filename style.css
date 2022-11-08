@@ -1,0 +1,189 @@
+/* style.css */
+
+body{
+    color: blanchedalmond;
+    background-color: slategray;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+header, 
+footer {
+    background-color: darkslateblue;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    justify-content: space-evenly;
+    gap: 12rem;
+}
+
+.header-top-half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-left-side{
+    justify-content: left;
+}
+
+.header-right-side {
+    justify-content: right;
+    display: flex;
+    list-style-type: none;
+}
+
+button {
+    background-color: darkslateblue;
+    color: blanchedalmond;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 1px solid blanchedalmond;
+    padding: 2px 16px;
+    transition-duration: 0.6s;
+    text-decoration: none;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: rgb(64, 54, 129);
+    color: blanchedalmond;
+    font-weight: 550;
+}
+
+.brand-name {
+    font-weight: 900;
+}
+
+#top-brand-name {
+    font-size: 64px;
+}
+
+
+.header-bottom-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.current-lotto-pool-display {
+    padding-bottom: 12rem;
+    text-align: center;
+}
+
+.current-lotto-pool-display-amount {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+a { 
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.corner-dropdown {
+    list-style-type: none;
+}
+
+.brand-banner{
+    font-size: 24px;
+}
+
+.logo-block {
+    display: flex;
+}
+
+.logo {
+    margin: 24px;
+    padding: 24px;
+    background-color: lightslategray;
+}
+
+.long-form-name,
+.funds-raised-suffix {
+    font-weight: 900;
+}
+
+.elevator-pitch-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.elevator-pitch-sub-block {
+    flex-basis: 50%;
+}
+
+.elevator-pitch {
+    font-size: 18px;
+}
+
+.body-card {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-card-top-left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+    padding-bottom: 24rem;
+} 
+
+.charity-funds-raised {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.body-card-middle-title {
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.operational-cards {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+
+.operational-cards-sub {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.operational-cards-sub-title {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.operational-cards-sub-content {
+    text-align: left;
+    font-size: 24px;
+    border: 1px solid blanchedalmond;
+    padding: 16px;
+
+}
+
+.charity-organizations-card {
+    margin-top: 8rem;
+}
+
+.charity-organizations-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.charity-organizations-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+}
