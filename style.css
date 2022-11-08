@@ -10,12 +10,12 @@ body{
 header, 
 footer {
     background-color: darkslateblue;
+    padding: 48px;
 }
 
 header {
     display: flex;
     flex-direction: column;
-    padding: 24px;
     justify-content: space-evenly;
     gap: 12rem;
 }
@@ -56,6 +56,8 @@ button:hover {
 
 .brand-name {
     font-weight: 900;
+    font-size: 48px;
+    
 }
 
 #top-brand-name {
@@ -121,7 +123,7 @@ a {
 }
 
 .body-card {
-    padding: 24px;
+    padding: 48px;
     display: flex;
     flex-direction: column;
 }
@@ -138,6 +140,11 @@ a {
     font-weight: 700;
 }
 
+.body-card-middle {
+    display: flex;
+    flex-direction: column;
+}
+
 .body-card-middle-title {
     font-size: 64px;
     font-weight: 900;
@@ -148,19 +155,27 @@ a {
     display: flex;
     list-style-type: none;
     justify-content: center;
+    gap: 12px;
+    flex: 1;
+    align-items: stretch;
 }
 
+.operational-cards-item {
+    flex: 1;
+}
 
 .operational-cards-sub {
     list-style-type: none;
     text-align: center;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .operational-cards-sub-title {
     font-weight: 900;
     font-size: 48px;
+    flex: 1;
 }
 
 .operational-cards-sub-content {
@@ -184,6 +199,42 @@ a {
 .charity-organizations-list {
     display: flex;
     flex-direction: column;
-    list-style-type: none;
     align-items: center;
+}
+
+.charity-icon {
+    margin: 48px;
+    background-color: darkslateblue;
+}
+
+.charity-organizations-list {
+    display: flex;
+}
+
+.charity-organization-card-logo {
+    margin: 48px;
+    background-color: slateblue;
+    text-align: center;
+}
+
+.charity_organziation-card-name {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.footer-logo-top {
+    display: flex;
+}
+
+.footer-link-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-links {
+    list-style-type: none;
+}
+
+.socials {
+    list-style-type: none;
 }
